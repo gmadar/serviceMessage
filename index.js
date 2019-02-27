@@ -63,6 +63,7 @@ function sendBatch(uri, data) {
         });
     });
 }
+exports.sendBatch = sendBatch;
 function parseRequest(req) {
     return req.body.messages;
 }

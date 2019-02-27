@@ -7,7 +7,7 @@ export async function sendSingle(
   return sendBatch(uri, [data]);
 }
 
-async function sendBatch(
+export async function sendBatch(
   uri: string,
   data: { [key: string]: any }[]
 ): Promise<any> {
