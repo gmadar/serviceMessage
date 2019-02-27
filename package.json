@@ -1,6 +1,6 @@
 {
   "name": "service-message",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "create an interface standardise messages between services using TypeScript",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,9 @@
     "url": "https://github.com/gmadar/serviceMessage/issues"
   },
   "homepage": "https://github.com/gmadar/serviceMessage#readme",
-  "dependencies": {},
+  "dependencies": {
+    "request": "^2.88.0"
+  },
   "devDependencies": {
     "@types/request": "^2.48.1",
     "typescript": "^3.3.3333"
