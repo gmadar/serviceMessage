@@ -6,10 +6,6 @@
     "lib": ["esnext"],
     "noImplicitAny": true,
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "sourceMap": true,
-    "outDir": ".",
-    "baseUrl": "."
-  },
-  "include": ["index.ts"]
+    "resolveJsonModule": true
+  }
 }

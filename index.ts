@@ -1,4 +1,4 @@
-import request from "request";
+import * as request from "request";
 
 export async function sendSingle(
   uri: string,
@@ -26,7 +26,7 @@ export async function sendBatch(
   });
 }
 
-export function parseRequest(req): { [key: string]: any } {
+export function parseRequest(req: any): { [key: string]: any } {
   return req.body.messages;
 }
 

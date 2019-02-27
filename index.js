@@ -35,7 +35,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 exports.__esModule = true;
-var request_1 = require("request");
+var request = require("request");
 function sendSingle(uri, data) {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
@@ -53,7 +53,7 @@ function sendBatch(uri, data) {
                             messages: data
                         }
                     };
-                    request_1["default"].post(uri, reqBody, function (error, response) {
+                    request.post(uri, reqBody, function (error, response) {
                         if (error) {
                             return reject(error);
                         }
